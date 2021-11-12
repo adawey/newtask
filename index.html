@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/all.css" type="text/css" />
+</head>
+
+<body>
+    <section class="container">
+        <div class="Compare">
+            <h1>Calculate your Rewards </h1>
+        </div>
+        <div class="form_info">
+            <form>
+                <div class="label">
+                    <label>Vendor/Bills</label>
+                </div>
+                <div class="inp">
+                    <input name="vendor" class="input1" type="number" placeholder="number1">
+                </div>
+                <div class="label">
+                    <label>Media/Ad</label>
+                </div>
+                <div class="inp">
+                    <input name="media" class="input2" type="number" placeholder="number1">
+                </div>
+                <div class="label">
+                    <label>Corporation spend </label>
+                </div>
+                <div class="inp">
+                    <input name="spend" class="input3" type="number" placeholder="number1">
+                </div>
+                <div class="label">
+                    <label>Team project </label>
+                </div>
+                <div class="inp">
+                    <input name="project" class="input4" type="number" placeholder="number1">
+                </div>
+                <div class="Compare">
+                    <h1>Compare your Rewords</h1>
+                </div>
+                <div class="submit">
+
+                    <input type="submit" value="Brex" name="Brex">
+                    <input type="submit" value="Stripe" name="Stripe">
+                    <input type="submit" value="Amex" name="Amex">
+                </div>
+            </form>
+        </div>
+
+        <div class="result">
+            <div>
+                <h1>unlimited Rewords</h1>
+                <p class="unlimited"></p>
+            </div>
+            <div>
+                <h1>lifetime Rewords</h1>
+                <p class="lifetime"></p>
+            </div>
+        </div>
+        <section>
+            <div class="sec3">
+                <ul class="tabs">
+                    <i class="fas fa-angle-left"></i>
+                    <li class="active" data-cont=".one"> <img src="images/amex.png"></li>
+                    <li data-cont=".two"><img src="images/strip.jpg"></li>
+                    <li data-cont=".three"><img src="images/Brex.png"></li>
+                    <i class="fas fa-angle-right"></i>
+                </ul>
+                <div class="content">
+                    <div class="one result">
+                        <div>
+                            <h1>unlimited Rewords :</h1>
+                            <p class="lifetime"> <progress class="progress" value="" max="100"> </progress></p>
+                        </div>
+                        <div>
+                            <h1>lifetime Rewords :</h1>
+
+                            <p class="lifetime"> <progress class="progress" value="0" max="100"> </progress> </p>
+                        </div>
+                        <div>
+                            <h1>unlimited life :</h1>
+                            <p class="lifetime"> <progress class="progress" value="" max="100" id="pro1"> </progress></p>
+                        </div>
+                    </div>
+                    <div class="two result">
+                        <div>
+                            <h1>unlimited Rewords :</h1>
+                            <p class="lifetime"> <progress class="progress" value="" max="100"> </progress></p>
+                        </div>
+                        <div>
+                            <h1>lifetime Rewords :</h1>
+
+                            <p class="lifetime"> <progress class="progress" value="0" max="100"> </progress> </p>
+                        </div>
+                        <div>
+                            <h1>unlimited life :</h1>
+                            <p class="lifetime"> <progress class="progress" value="" max="100"> </progress></p>
+                        </div>
+                    </div>
+                    <div class="three result">
+                        <div>
+                            <h1>unlimited Rewords :</h1>
+                            <p class="lifetime"> <progress class="progress" value="" max="100"> </progress></p>
+                        </div>
+                        <div>
+                            <h1>lifetime Rewords :</h1>
+
+                            <p class="lifetime"> <progress class="progress" value="0" max="100"> </progress> </p>
+                        </div>
+                        <div>
+                            <h1>unlimited life :</h1>
+                            <p class="lifetime"> <progress class="progress" value="" max="100" id="pro3"> </progress></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="javascript/main.js"></script>
+</body>
+
+</html>
